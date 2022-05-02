@@ -1,6 +1,10 @@
 # Todo
 
-**TODO: Add description**
+**TODO: Simple todo app make in elixir**
+
+## About
+This is staring in journey to learn elixir programming language, and here I am trying to make a Todo app.  
+Hope this does not gimme another ptsd.
 
 ## Installation
 
