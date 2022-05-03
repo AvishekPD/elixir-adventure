@@ -16,6 +16,18 @@ defmodule Todo do
     Enum.member?(list, task)
   end
 
+  def completed_task(list, task) do
+    if check?(list, task) do
+      List.delete(list, task)
+    else
+      "Error, not Found!"
+    end
+  end
+
+  def add_new_element(list, task) do
+    List.insert_at(list, -1, task)
+  end
+
   def search_key(list, word) do
     for task <- list, String.contains?(task, word) do
       :task
